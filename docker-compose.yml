@@ -16,7 +16,7 @@ services:
       - 9200:9200
       - 9300:9300
   kibana:
-    image: docker.elastic.co/kibana/kibana:7.0.0
+    image: docker.elastic.co/kibana/kibana:6.6.2
     container_name: kibana
     depends_on:
       - elasticsearch #kibana在elasticsearch启动之后再启动
