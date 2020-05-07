@@ -1,5 +1,6 @@
-- pipeline.id: sync_table_1
-  path.config: "/etc/logstash/pipeline/conf/sync_table_1.cfg"
-- pipeline.id: sync_table_2
-  path.config: "/etc/logstash/pipeline/conf/sync_table_2.cfg"
-
+- pipeline.id: sync_mysql_table_one
+  path.config: "/etc/logstash/pipeline/conf/sync_mysql_table_one.cfg"
+- pipeline.id: sync_mysql_table_two
+  path.config: "/etc/logstash/pipeline/conf/sync_mysql_table_two.cfg"
+- pipeline.id: sync_kafka
+  path.config: "/etc/logstash/pipeline/conf/sync_kafka.cfg"
